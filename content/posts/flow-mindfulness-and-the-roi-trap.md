@@ -2,7 +2,7 @@
 title = "Flow, Mindfulness, and the ROI Trap"
 date = 2026-03-08T16:00:00-07:00
 draft = false
-description = "One evening I sat down to fix a small issue in the codebase."
+description = "When time starts being judged like an investment, it becomes harder to protect the kind of attention that lets ideas breathe."
 tags = ["mindfulness", "reflection", "productivity"]
 categories = []
 toc = true
