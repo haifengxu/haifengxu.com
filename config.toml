@@ -1,5 +1,5 @@
 baseURL = "https://haifengxu.com/"
-title = "Haifeng Xu"
+title = "gamma"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 enableRobotsTXT = true
@@ -32,15 +32,15 @@ pagination.pagerSize = 8
     ordered = false
 
 [params]
-  description = "Essays on tech, reflection, and leadership."
+  description = "Notes on building, engineering, and clarity."
   author = "Haifeng Xu"
   accentColor = "#4c8cf5"
-  tagline = "Weekly essays on building products, leading teams, and thinking clearly."
-  location = "San Francisco, California"
+  tagline = "Notes on building, engineering, and clarity."
+  location = "Seattle, Washington"
   email = "me@haifengxu.com"
   ogImage = "/og/cover.svg"
   mainSections = ["posts"]
-  intro = "I write about product engineering, reflective practice, and leadership in technical organizations."
+  intro = "gamma"
   github = "https://github.com/haifengxu"
   linkedin = "https://www.linkedin.com/in/haifeng-xu-88526728/"
   x = "https://x.com/haifengxu"

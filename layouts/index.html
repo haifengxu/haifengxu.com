@@ -3,12 +3,12 @@
   {{ $latest := first 6 ((where (where site.RegularPages "Section" "posts") "Params.featured" "!=" true).ByDate.Reverse) }}
 
   <section class="hero">
-    <p class="eyebrow">Haifeng Xu</p>
-    <h1>{{ site.Params.intro }}</h1>
+    <p class="eyebrow">Seattle, Washington</p>
+    <h1>{{ site.Title }}</h1>
     <p class="lede">{{ site.Params.tagline }}</p>
     <div class="hero-meta">
       <p>{{ site.Params.location }}</p>
-      <p>Publishing weekly on product thinking, leadership, and technical craft.</p>
+      <p>Writing archive and notes.</p>
     </div>
   </section>
 
