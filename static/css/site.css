@@ -109,14 +109,16 @@ pre,
 
 .brand-lockup {
   display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: 0.7rem 1rem;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 0.65rem 0.95rem;
 }
 
 .brand {
+  display: block;
   font-size: 0.95rem;
   font-weight: 600;
+  line-height: 1;
   letter-spacing: 0.1em;
   text-decoration: none;
   text-transform: uppercase;
@@ -124,9 +126,11 @@ pre,
 
 .site-tagline {
   margin: 0;
+  display: block;
   color: var(--muted);
-  font-size: 0.98rem;
-  line-height: 1.3;
+  font-size: 0.96rem;
+  line-height: 1.12;
+  transform: translateY(0.04rem);
 }
 
 .eyebrow,
@@ -295,7 +299,7 @@ pre,
 
 .post-card h3 {
   margin-bottom: 0.45rem;
-  font-size: 1.4rem;
+  font-size: 1.32rem;
 }
 
 .post-card p {
@@ -378,7 +382,7 @@ pre,
 
 .post-single-minimal .post-header h1 {
   max-width: 15ch;
-  font-size: clamp(1.8rem, 3.35vw, 3rem);
+  font-size: clamp(1.68rem, 3vw, 2.72rem);
   font-weight: 600;
   line-height: 1.04;
   letter-spacing: -0.022em;
@@ -670,6 +674,7 @@ pre,
   .site-tagline {
     font-size: 0.94rem;
     line-height: 1.35;
+    transform: translateY(-0.16rem);
   }
 
   .site-nav,
@@ -687,8 +692,8 @@ pre,
 
   .post-card h3,
   .section-head h2 {
-    font-size: 1.45rem;
-    line-height: 1.06;
+    font-size: 1.34rem;
+    line-height: 1.14;
   }
 
   .section-head-minimal {
@@ -713,7 +718,7 @@ pre,
 
   .post-card p {
     font-size: 1rem;
-    line-height: 1.72;
+    line-height: 1.36;
   }
 
   .tag-list {
@@ -739,8 +744,8 @@ pre,
 
   .post-single-minimal .post-header h1 {
     max-width: none;
-    font-size: clamp(1.72rem, 8.7vw, 2.25rem);
-    line-height: 1.06;
+    font-size: clamp(1.58rem, 8vw, 2.08rem);
+    line-height: 1.12;
   }
 
   .post-single-minimal .post-meta {
